@@ -9,7 +9,7 @@ In this repository, we will use Javascript to create a table that organizes UFO 
 * Build and deploy JavaScript functions, including built-in functions.
 * Convert JavaScript functions to arrow functions.
 * Build and deploy forEach (JavaScript for loop).
-* Create, populate, and dynamically filter a table using JavaScript and HTML
+* Create, populate, and dynamically filter a table using JavaScript and HTML (conver a Javascript array into an HTML Table)
 
 ## Deliverables
 * Deliverable 1: Filter UFO sightings on multiple criteria
