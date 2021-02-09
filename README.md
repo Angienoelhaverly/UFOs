@@ -5,13 +5,13 @@ JavaScript is a well-established coding language designed to improve webpages by
 
 In this repository, we will use Javascript to create a table that organizes UFO data that is stored as a JavaScript array, or list. This table will have the ability to filter data based on certain criteria and will be created using JavaScript as the primary coding language.
 
-### Goals
+### Coding Goals
 * Build and deploy JavaScript functions, including built-in functions.
 * Convert JavaScript functions to arrow functions.
 * Build and deploy forEach (JavaScript for loop).
 * Create, populate, and dynamically filter a table using JavaScript and HTML (conver a Javascript array into an HTML Table)
 
-### Deliverables
+### Project Deliverables
 * Deliverable 1: Filter UFO sightings on multiple criteria
 * Deliverable 2: A written report on the UFO analysis (README.md)
 
