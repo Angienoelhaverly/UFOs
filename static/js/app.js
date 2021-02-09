@@ -9,6 +9,10 @@ const tableData = data;
 var tbody = d3.select("tbody"); 
 
 //iterate through the array of objects in our data file and then append them to a table row.
+// With this function, we have done the following:
+// Looped through each object in the array
+// Appended a row to the HTML table
+// Added each value from the object into a cell
 function buildTable(data) {
     // first clear the data
     tbody.html("");
@@ -47,9 +51,36 @@ function buildTable(data) {
 
 }
 
+// add a function to respond to a user clicking the HTML button, using D3 (data driven documents)
+// this will help users be able to filter data 
+// The .select() function is a very common one used in D3. It will select the very first element that matches our selector string: "#datetime"
+// With d3.select("#datetime"), we're telling D3 to look for the #datetime id in the HTML tags
+// By chaining .property("value"); to the d3.select function, we're telling D3 not only to look for where our date values are stored 
+// on the webpage, but to actually grab that information and hold it in the "date" variable.
+function handleClick() {
+    let date = d3.select("#datetime").property("value");
 
-// With this function, we have done the following:
-// Looped through each object in the array
-// Appended a row to the HTML table
-// Added each value from the object into a cell
+    // Now we need to set a default filter and save it to a new variable. 
+    // Our default filter will actually be the original table data because we want users to refine their search on their own terms. 
+    // Let's add the new variable on the next line.
+    let filteredData = tableData;
+
+    // The next step is to check for a date filter using an if statement.
+    //  "Show only the rows where the date is equal to the date filter we created above." 
+    // The triple equal signs test for equality, meaning that the date in the table has to match our filter exactly.
+    if (date) {
+        filteredData = filteredData.filter(row => row.datetime === date);
+    }
+    
+    // Rebuild the table using the filtered data
+    // @NOTE: If no date was entered, then filteredData will
+    // just be the original tableData.
+    buildTable(filteredData);
+}
+
+// Attach an event to listen for the form button
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Build the table when the page loads
+buildTable(tableData);
 
