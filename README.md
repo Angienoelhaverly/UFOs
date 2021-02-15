@@ -29,7 +29,7 @@ Filter results can be more narrowed such as specifying the date, a city in one s
 ![filters](https://user-images.githubusercontent.com/73972332/107899363-e949c900-6ef2-11eb-9e0f-a0602c608d68.png)
 
 ## Summary
-Our current webpage has one main advantage in that users can search upon multiple criteria at one time and there is no submit button needed. However, there are also some drawbacks. 
+Our current webpage has one main advantage in that users can search upon multiple criteria at one time and there is no submit button needed. However, there are also some drawbacks. The main draw backs all have to do with the fact that the search options don't provide much idea as to available options to search on. The current fields are all text boxes and these can allow for a lot of user errors, or just simply mistyping errors. This makes the data analysis ineffective and time consuming.
 
 ***Drawbacks***
 * The filter method is case sensitive. Therefore if a user entered any items in upper case, the search results would not return properly. For example, if the user entered a city as "Ventura" instead of "ventura", the city would not return in the filtered data. 
