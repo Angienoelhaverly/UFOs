@@ -21,8 +21,12 @@ The webpage created is a fairly user-friendly display of ufo sighting data with 
 ![filters](https://user-images.githubusercontent.com/73972332/107899363-e949c900-6ef2-11eb-9e0f-a0602c608d68.png)
 
 ## Summary
-Our current webpage has one main advantage in that users can search upon multiple criteria at one time and there is no submit button needed. However, there are also some drawbacks. These drawbacks include the fact that the filter method is case sensitive. Therefore if a user entered any items in upper case, the search results would not return properly. For example, if the user entered a city as "Ventura" instead of "ventura", the city would not return in the filtered data. Another drawback is that without knowing exactly what the existing options are for the Shape field, it's hard to effectively search using that filter. 
+Our current webpage has one main advantage in that users can search upon multiple criteria at one time and there is no submit button needed. However, there are also some drawbacks. 
 
-Recommendations for further development: 
+*Drawbacks*
+* The filter method is case sensitive. Therefore if a user entered any items in upper case, the search results would not return properly. For example, if the user entered a city as "Ventura" instead of "ventura", the city would not return in the filtered data. 
+* Without knowing exactly what the existing options are for the Shape field, it's hard to effectively search using that filter. 
+
+*Recommendations for further development:*
 * A drop down menu for the shape option as it would be hard for users to guess this on their own. This would be more user friendly as a drop down option than a user input of text. 
 * Also the text in the Comments section needs to be cleaned up as there are strange encoding artifacts that show up. These should be eliminated to make reading the comments more user-friendly. 
