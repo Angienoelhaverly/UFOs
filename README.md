@@ -37,5 +37,6 @@ Our current webpage has one main advantage in that users can search upon multipl
 * The same issue with the Shape field, without knowing what the shape options are, the user will not know what terms to search for. 
 
 ***Recommendations for further development:***
-* A drop down menu for the shape option as it would be hard for users to guess this on their own. This would be more user friendly as a drop down option than a user input of text. 
+* Remove case-sensitivity in all the textbox search fields. 
+* Add a drop down menu for the shape field. This would be more user friendly as a drop down option than the textbox. 
 * The text in the Comments section should be parsed and cleaned as there are strange symbols that can appear. These should be eliminated to make reading the comments more user-friendly. 
