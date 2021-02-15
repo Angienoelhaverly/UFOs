@@ -38,5 +38,6 @@ Our current webpage has one main advantage in that users can search upon multipl
 
 ***Recommendations for further development:***
 * Remove case-sensitivity in all the textbox search fields. 
-* Add a drop down menu for the shape field. This would be more user friendly as a drop down option than the textbox. 
+* Add a calendar selection option instead of textbox field for the Date search. 
+* Add a drop down menu for the Shape field. This would be more user friendly as a drop down option than the textbox. 
 * The text in the Comments section should be parsed and cleaned as there are strange symbols that can appear. These should be eliminated to make reading the comments more user-friendly. 
