@@ -16,7 +16,9 @@ In this repository, we will use Javascript to create a table that organizes UFO 
 * Deliverable 2: A written report on the UFO analysis (README.md)
 
 ## Results
-* Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+The webpage created is a fairly user-friendly display of ufo sighting data with a filter table that allows users to easily filter on various criteria such as date, city, state, and shape of the UFO sighting. The displayed results are dynamically filtered as you update the form field entries. There is no needed Submit or Refresh button as the tables update in real time. Filter selection can be broad such as only selecting a country like the United States, or can be as narrow as specifying the date, choosing one city in one state and focusing on one type of shape such as "light". 
+
+![filters](https://user-images.githubusercontent.com/73972332/107899363-e949c900-6ef2-11eb-9e0f-a0602c608d68.png)
 
 ## Summary
 * In a summary statement, describe one drawback of this new design and two recommendations for further development.
