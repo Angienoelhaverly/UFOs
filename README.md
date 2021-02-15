@@ -22,3 +22,4 @@ The webpage created is a fairly user-friendly display of ufo sighting data with 
 
 ## Summary
 * In a summary statement, describe one drawback of this new design and two recommendations for further development.
+Our current webpage has one main advantage in that users can search upon multiple criteria at one time and there is no submit button needed. However, there are also some drawbacks. Recommendations for further development: a drop down menu for the shape option as it would be hard for users to guess this on their own. This would be more user friendly as a drop down option than a user input of text. 
