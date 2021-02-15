@@ -24,18 +24,18 @@ The displayed results are dynamically filtered as you update the form field entr
 
 ![filter](https://user-images.githubusercontent.com/73972332/107900458-e8fefd00-6ef5-11eb-9f20-ce8fee37dbda.png)
 
-Filter results can be more narrowed such as specifying the date, choosing one city in one state and focusing on one type of shape such as "light". 
+Filter results can be more narrowed such as specifying the date, a city in one state and focusing on one type of shape such as "light". 
 
 ![filters](https://user-images.githubusercontent.com/73972332/107899363-e949c900-6ef2-11eb-9e0f-a0602c608d68.png)
 
 ## Summary
 Our current webpage has one main advantage in that users can search upon multiple criteria at one time and there is no submit button needed. However, there are also some drawbacks. 
 
-*Drawbacks*
+***Drawbacks***
 * The filter method is case sensitive. Therefore if a user entered any items in upper case, the search results would not return properly. For example, if the user entered a city as "Ventura" instead of "ventura", the city would not return in the filtered data. 
 * The user may not know exactly what period the data is from, so the user might type in dates that we don't have data for. For the date filter, the user should be able to click through a calendar. 
 * The same issue with the Shape field, without knowing what the shape options are, the user will not know what terms to search for. 
 
-*Recommendations for further development:*
+***Recommendations for further development:***
 * A drop down menu for the shape option as it would be hard for users to guess this on their own. This would be more user friendly as a drop down option than a user input of text. 
 * The text in the Comments section should be parsed and cleaned as there are strange symbols that can appear. These should be eliminated to make reading the comments more user-friendly. 
