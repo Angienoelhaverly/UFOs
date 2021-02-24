@@ -1,6 +1,8 @@
 # UFOs
 
 ## Project Overview
+All of the analysis in the world, no matter how accurate or sophisticated, is useless if it cannot be communicated. Data visualizations allow us to tell a story with data in a way that is clear, accessible, and cohesive. Visualizations allow even those with limited data fluency to interpret data.
+
 JavaScript is a well-established coding language designed to improve webpages by enhancing the user experience. Javascript enhances websites by providing front-end functionality, customization, dashboards (such as maps or graphs), and allows for user input to create dynamic web pages. Javascript enables websites to be visually appealing and interactive. 
 
 In this repository, we will use Javascript to create a table that organizes UFO data that is stored as a JavaScript array, or list. This table will have the ability to filter data based on certain criteria and will be created using JavaScript as the primary coding language.
